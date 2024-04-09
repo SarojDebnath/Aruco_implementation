@@ -55,8 +55,8 @@ def angles(marker_ids,tvecs,rvecs):
 #X: red, Y: green, Z: blue
 cap=cv2.VideoCapture(0)
 
-camera_matrix=np.matrix([[5.23059088e+04,0.00000000e+00,4.61027617e+02],[0.00000000e+00,2.81349018e+04,2.39792783e+02],[0.00000000e+00,0.00000000e+00,1.00000000e+00]])
-dist_coeffs=np.matrix([[5.41114976e+01,-1.12639322e+04,3.13476627e-02,-3.04059145e-01,-2.57512806e+01]])
+camera_matrix=np.matrix([[966.80083369,0.0,649.99730882],[0.0,971.15680184,362.74810822],[0.0,0.0,1.0]])
+dist_coeffs=np.matrix([[0.12043679,-0.12656466,-0.00104852,0.00258223,-0.67734902]])
 
 markerIds = []
 markerIds = np.array(markerIds)
