@@ -86,3 +86,5 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
+#I have a camera by which I am getting the pixel data and the depth data. However, the camera got collided and little bit moved in a certain way which I don't know. I am using the below code to calculate the translation and rotation before and after collision. Now, I want that whenever, I am capturing a frame, this captured frame should be transformed back like it was previously using the captured information from ArUCo. It should capture like it was capturing previously before collision.
